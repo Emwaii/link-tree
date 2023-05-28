@@ -28,6 +28,16 @@
 .disable-scrolling {
   overflow: hidden;
 }
+.credit{
+  z-index: 999;
+  position: relative;
+  bottom: -50px;
+}
+/* .credit > a > img{
+  background: white;
+  object-fit: cover;
+  border-radius: 50%;
+} */
 body .preloader{
   min-height: 100vh;
   display: flex;
